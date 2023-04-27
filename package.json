@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Express.js Challenge: Note Taker",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +19,11 @@
   },
   "homepage": "https://github.com/Berkeleycodingmomma/take-notes-and-save#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
   },
-  "scripts": {
-    "start": "node server.js" 
+  "scripts": { 
+    "start": "node server.js"  
   }
+
 }
