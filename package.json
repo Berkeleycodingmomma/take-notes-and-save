@@ -1,0 +1,26 @@
+{
+  "name": "take-notes-and-save",
+  "version": "1.0.0",
+  "description": "Express.js Challenge: Note Taker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berkeleycodingmomma/take-notes-and-save.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Berkeleycodingmomma/take-notes-and-save/issues"
+  },
+  "homepage": "https://github.com/Berkeleycodingmomma/take-notes-and-save#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js" 
+  }
+}
