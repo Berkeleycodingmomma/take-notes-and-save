@@ -1,13 +1,13 @@
+"_manifest tells the browser about this App and how it should behave when installed on the user's desktop or mobile device"
+
 {
     "name": "TAKE-NOTES-AND SAVE App",
     "short_name": "TAKE-NOTES-AND SAVE App",
-    "icons": [
-        {
-            "src": "assets/images/pencil-alt-solid_2x.png",
-            "sizes": "320x320",
-            "type": "image/png"
-        }
-    ],
+    "icons": [{
+        "src": "assets/images/pencil-alt-solid_2x.png",
+        "sizes": "320x320",
+        "type": "image/png"
+    }],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "start_url": "/",
