@@ -11,6 +11,7 @@ The Express JS Note Taker is an uncomplicated, lightweight, and swift web applic
 - [Overview](#Overview)
 - [The Challenge](#The-Challenge)
 - [Usage Information](#Usage-Information)
+- [Code Snippets](#Code-Snippets)
 - [Installation Process](#Installation-Process)
 - [Built With](#Built-With)
 - [What I Learned](#What-I-Learned))
@@ -70,6 +71,76 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 5. To include another note, click on the "+" icon positioned at the top right corner.
 6. As an added feature, you can delete previously saved notes by selecting the trash icon.
 
+## Code Snippets
+
+```sh
+
+app.post('/api/notes', (req, res) => {
+    console.log(`${req.method} Request Received to Add a Note`);
+    const { title, text} = req.body;
+    let saveNote;
+    if (title && text) {
+        saveNote = {
+            title,
+            text,
+            id: uuidv4()
+        }
+    };
+
+**ABOVE: Creating a new note on the body form as an object; then pushing it (line 52) to the existing array from db.json
+
+```
+#
+
+```sh
+
+const renderNoteList = async (notes) => {
+  let jsonNotes = await notes.json();
+  if (window.location.pathname === '/notes') {
+    noteList.forEach((el) => (el.innerHTML = ''));
+  }
+
+  let noteListItems = [];
+
+**ABOVE: Render the list of note titles
+
+```
+#
+
+```sh
+
+app.delete('/api/notes/:id', (req, res) => {
+    console.log(`${req.method} request received to DELETE NOTE!!!`);
+    const noteIDFind = req.params.id;
+   
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+        } else {
+            const Note = JSON.parse(data);
+            for (let x = 0; x < Note.length; x++) {
+                if(noteIDFind === Note[x].id) {
+                    Note.splice(x, 1)
+                }
+            }
+            console.log(Note)
+     
+            fs.writeFile('./db/db.json', JSON.stringify(Note, null, 3),
+                (err) =>
+                err
+                ?console.error(err)
+                :console.log('This worked.')
+            );
+        }
+});
+    res.redirect("/");
+    }
+);
+
+**ABOVE:  Find this note on the array by the id parameter in db.json and then remove it, then rewrite the new db.json file without it  
+
+```
+#
 ## Screenshots:
 ### This is what the user will see when taken to the deplyed site
 <img width="1409" alt="Screen Shot 2023-06-01 at 2 20 33 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/2add05be-12d4-4927-a3e6-61806beabd1a">
@@ -83,8 +154,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Deployed Application Link:
 [Deployed Application Link:](https://tranquil-eyrie-27280.herokuapp.com/notes)
-
-
 
 
 ## What I Learned
@@ -125,8 +194,18 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
-#
+
 ## Author
 
 Follow me on Github at [AmandaGray](https://github.com/Berkeleycodingmomma)! 
 Find me on Linkedin at [AmandaGray](https://www.linkedin.com/in/amanda-gray-121a6a254/)! 
+
+## Acknowledgments
+
+-UC Berkeley Extension, Coding Bootcamp
+
+-Shout out to my Instructor Jerome Chenette and all his TA's: Manuel Nunes, Kyle Vance, and James Harding
+
+-Google Search! Seriously, thank you google search!
+#
+
