@@ -71,10 +71,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 6. As an added feature, you can delete previously saved notes by selecting the trash icon.
 
 ## Screenshots:
-###
+### This is what the user will see when taken to the deplyed site
+<img width="1409" alt="Screen Shot 2023-06-01 at 2 20 33 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/2add05be-12d4-4927-a3e6-61806beabd1a">
 
-
-###
+### This is after I made new notes and saved the information
 <img width="1415" alt="Screen Shot 2023-06-01 at 1 52 25 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/37d1d108-87f1-4578-b58f-556657dc6f87">
 
 
