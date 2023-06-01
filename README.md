@@ -72,10 +72,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshots:
 ###
-<img width="1415" alt="Screen Shot 2023-06-01 at 1 52 25 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/37d1d108-87f1-4578-b58f-556657dc6f87">
+
 
 ###
-<img width="1418" alt="Screen Shot 2023-06-01 at 1 51 31 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/edf1398d-6b17-41f5-90c7-312fa0cbe6d7">
+<img width="1415" alt="Screen Shot 2023-06-01 at 1 52 25 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/37d1d108-87f1-4578-b58f-556657dc6f87">
 
 
 ## Walk-through Demo
