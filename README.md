@@ -49,6 +49,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 ## GIF:
 ### Figure .1 GIF
+![Untitled_ Jun 1, 2023 1_54 PM](https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/b4ab18e0-a0cb-4f0f-be73-cf2779d4e690)
 
 
 ## Usage Instructions
