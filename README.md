@@ -47,29 +47,6 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
-## GIF:
-### Figure .1 GIF
-![Untitled_ Jun 1, 2023 1_54 PM](https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/b4ab18e0-a0cb-4f0f-be73-cf2779d4e690)
-
-
-## Usage Instructions
-1. Click here to open the [Deployed Application Link:](https://tranquil-eyrie-27280.herokuapp.com/notes)
-2. Initiate the application by clicking on the "Get Started" button.
-3. Input the desired text into the designated fields for both the 'title' and 'text' sections.
-4. Safeguard your note by clicking on the save icon located at the top right corner of the interface.
-5. To include another note, click on the "+" icon positioned at the top right corner.
-6. As an added feature, you can delete previously saved notes by selecting the trash icon.
-
-## Deployed Application Link:
-[Deployed Application Link:](https://tranquil-eyrie-27280.herokuapp.com/notes)
-
-## Walkthrough Video:
-[Click Here to Watch](https://drive.google.com/file/d/197T1oOUv7jIWuR_i7-O5XkjMsRe6rUbS/view)
-
-## Screenshots:
-### Figure 1. Screenshot
-
-
 ## Installation Process
 1. Clone the Repository from GitHub 
 2. (or) Download Zip Folder from Repository from GitHub
@@ -84,6 +61,25 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - Express.js:[Express.js](https://expressjs.com/en/starter/installing.html)
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
+
+## Usage Instructions
+1. Click here to open the [Deployed Application Link:](https://tranquil-eyrie-27280.herokuapp.com/notes)
+2. Initiate the application by clicking on the "Get Started" button.
+3. Input the desired text into the designated fields for both the 'title' and 'text' sections.
+4. Safeguard your note by clicking on the save icon located at the top right corner of the interface.
+5. To include another note, click on the "+" icon positioned at the top right corner.
+6. As an added feature, you can delete previously saved notes by selecting the trash icon.
+
+## Screenshots:
+
+## Walk-through Demo
+![Untitled_ Jun 1, 2023 1_54 PM](https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/b4ab18e0-a0cb-4f0f-be73-cf2779d4e690)
+
+## Deployed Application Link:
+[Deployed Application Link:](https://tranquil-eyrie-27280.herokuapp.com/notes)
+
+
+
 
 ## What I Learned
 I gained proficiency in constructing API routes and HTML routes.
