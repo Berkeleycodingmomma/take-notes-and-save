@@ -71,6 +71,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 6. As an added feature, you can delete previously saved notes by selecting the trash icon.
 
 ## Screenshots:
+###
+<img width="1415" alt="Screen Shot 2023-06-01 at 1 52 25 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/37d1d108-87f1-4578-b58f-556657dc6f87">
+
+###
+<img width="1418" alt="Screen Shot 2023-06-01 at 1 51 31 PM" src="https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/edf1398d-6b17-41f5-90c7-312fa0cbe6d7">
+
 
 ## Walk-through Demo
 ![Untitled_ Jun 1, 2023 1_54 PM](https://github.com/Berkeleycodingmomma/take-notes-and-save/assets/127444682/b4ab18e0-a0cb-4f0f-be73-cf2779d4e690)
